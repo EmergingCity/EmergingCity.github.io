@@ -55,9 +55,10 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav mx-auto py-0">
                         <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#about" class="nav-item nav-link">Our service</a>
                         <a href="#feature" class="nav-item nav-link">Feature</a>
-                        <a href="#pricing" class="nav-item nav-link">Pricing</a>
+                        <a href="#HowItWorks" class="nav-item nav-link">How it works</a>
+                        <a href="#pricing" class="nav-item nav-link">Our clients</a>
                         <a href="#review" class="nav-item nav-link">Our Team</a>
                         <a href="#contact" class="nav-item nav-link">Contact Us</a>
                     </div>
@@ -93,7 +94,7 @@
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">About service</h5>
+                        <h5 class="text-primary-gradient fw-medium">Our service</h5>
                         <h1 class="mb-4">#1 Home Visualization & Architect Contact Service</h1>
                         <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
                         <div class="row g-4 mb-4">
@@ -119,7 +120,10 @@
                         <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a>
                     </div>
                     <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/Screenshot 2024-04-30 171405.png">
+                        <div class="owl-carousel screenshot-carousel2">
+                            <img class="img-fluid" src="img/Screenshot 2024-04-30 171405.png" alt="">
+                            <img class="img-fluid" src="img/Screenshot 2024-04-30 171436.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,37 +199,47 @@
         </div>
         <!-- Features End -->
 
-
-        <!-- Screenshot Start -->
+        <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">Screenshot</h5>
-                        <h1 class="mb-4">User Friendly interface And Very Easy To Use Fitness App</h1>
+                    <div class="col-lg-6">
+                            <img class="img-fluid" src="img/Screenshot 2024-04-30 171405.png" alt="">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">About service</h5>
+                        <h1 class="mb-4">#1 Home Visualization & Architect Contact Service</h1>
                         <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Diam dolor diam ipsum et tempor sit</p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Aliqu diam amet diam et eos labore</p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Clita erat ipsum et lorem et sit</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex">
+                                    <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0" data-toggle="counter-up">10000</h2>
+                                        <p class="text-primary-gradient mb-0">AI Training Projects Count</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="d-flex">
+                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0" data-toggle="counter-up">50</h2>
+                                        <p class="text-secondary-gradient mb-0">Possible generate images for a single apartment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a>
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="owl-carousel screenshot-carousel">
-                            <img class="img-fluid" src="img/MAPS.png" alt="">
-                            <img class="img-fluid" src="img/format_house.png" alt="">
-                            <img class="img-fluid" src="img/b1.png" alt="">
-                            <img class="img-fluid" src="img/b2.png" alt="">
-
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
-        <!-- Screenshot End -->
-
+        <!-- About End -->
 
         <!-- Process Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id="HowItWorks">
             <div class="container py-5 px-lg-5">
                 <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="text-primary-gradient fw-medium">How It Works</h5>
@@ -265,34 +279,33 @@
         <!-- Process Start -->
 
 
-        <!-- Download Start -->
-        <div class="container-xxl py-5" id="demo">
+        <!-- Screenshot Start -->
+        <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6">
-                        <iframe class="wow fadeInUp" width="440" height="290" src="https://www.youtube.com/embed/8xy8qIjdC3g?autoplay=1" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h5 class="text-primary-gradient fw-medium">Demo video</h5>
-                        <h1 class="mb-4">How our service works</h1>
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Short description</h5>
+                        <h1 class="mb-4">User Friendly interface And Very Easy To Use Fitness App</h1>
                         <p class="mb-4">Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
-                        <p class="mb-4">Contact us to be one of our beta tester</p>
-                        <div class="row g-4">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <a href="#contact" class="d-flex bg-primary-gradient rounded py-3 px-4">
-                                    <i class="fa fa-envelope fa-3x text-white flex-shrink-0"></i>
-                                    <div class="ms-3">
-                                        <p class="text-white mb-0">Be special</p>
-                                        <h5 class="text-white mb-0">Contact us</h5>
-                                    </div>
-                                </a>
-                            </div>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Diam dolor diam ipsum et tempor sit</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Aliqu diam amet diam et eos labore</p>
+                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Clita erat ipsum et lorem et sit</p>
+                        <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/MAPS.png" alt="">
+                            <img class="img-fluid" src="img/format_house.png" alt="">
+                            <img class="img-fluid" src="img/b1.png" alt="">
+                            <img class="img-fluid" src="img/b2.png" alt="">
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Download End -->
+        <!-- Screenshot End -->
+
 
 
         <!-- Pricing Start -->
@@ -300,7 +313,7 @@
             <div class="container py-5 px-lg-5">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="text-primary-gradient fw-medium">Who you are</h5>
-                    <h1 class="mb-5">Our targets</h1>
+                    <h1 class="mb-5">Our clients</h1>
                 </div>
                 <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
                     <div class="tab-content text-start">
